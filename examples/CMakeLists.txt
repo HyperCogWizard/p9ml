@@ -27,6 +27,10 @@ if (NOT GGML_BACKEND_DL)
     add_subdirectory(sam)
     add_subdirectory(simple)
     add_subdirectory(magika)
+    
+    # P9-ML example
+    add_executable(p9ml-example p9ml-example.c)
+    target_link_libraries(p9ml-example PRIVATE ggml)
 endif()
 
 if (GGML_METAL)
