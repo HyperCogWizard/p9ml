@@ -193,12 +193,14 @@ add_library(ggml-base
             ../include/ggml-backend.h
             ../include/ggml-cpp.h
             ../include/ggml-opt.h
+            ../include/ggml-p9ml.h
             ../include/gguf.h
             ggml.c
             ggml.cpp
             ggml-alloc.c
             ggml-backend.cpp
             ggml-opt.cpp
+            ggml-p9ml.c
             ggml-threading.cpp
             ggml-threading.h
             ggml-quants.c
